@@ -37,11 +37,8 @@
     <link href="/theme/css/pygments/monokai.css" rel="stylesheet">
     <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
 
-        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
-              title="Janit Vora's Blog ATOM Feed"/>
 
-        <link href="/feeds/cloud.atom.xml" type="application/atom+xml" rel="alternate"
-              title="Janit Vora's Blog cloud ATOM Feed"/>
+
 </head>
 <body>
 
@@ -119,13 +116,9 @@ Janit Vora's Blog            </a>
 <p>I have used the long-form format since the intention is to inform and hence enable Enterprise Architecture. This encompasses the journey from determining the cloud strategy to creating a BAU cloud function within the enterprise.</p>
 <p>The scope of this guide is to help an organization’s enterprise architecture function make decisions on how to move its technology estate to the cloud. This guide describes the activities required, related decisions, challenges, risks and success factors for a successful journey to cloud computing.</p>
 <h2>How to define Enterprise Cloud Strategy?</h2>
-<<<<<<< HEAD
 <p><p align = "center">
 <img alt="How to define an Enterprise Cloud Strategy?" src="/img/HowToDefineEnterpriseCloudStrategy.jpg">
 </p></p>
-=======
-<p><img alt="How to define an Enterprise Cloud Strategy?" src="/img/HowToDefineEnterpriseCloudStrategy.jpg"></p>
->>>>>>> origin/master
 <hr>
 <h3>Inputs to Cloud Strategy</h3>
 <p>There are different factors which influence Enterprise Cloud Strategy. These factors serve as inputs to the process of defining the cloud strategy:</p>
@@ -134,17 +127,11 @@ Janit Vora's Blog            </a>
 <li>Inputs from ‘Application Portfolio Rationalization: ’Vision, mission, approach should also dovetail with any application portfolio rationalization programmes undertaken and</li>
 <li>Inputs from ‘IT Strategy and Technology Roadmap’: The overall IT strategy and technology roadmap of the enterprise will also inform the cloud strategy</li>
 <li>Inputs from ‘Cloud Maturity assessment’ might help determine the cloud maturity of an enterprise and could be another input to determining cloud strategy</li>
-<<<<<<< HEAD
 <li>Enlisting the major reasons for cloud adoption - reasons which help answer 'Why Cloud?' will help determine the approach to cloud adoption. Some of the usual reasons for cloud adoption could be:
 <p align = "center">
 <img alt="Reasons for using Cloud Strategy" src="/img/cloud-adoption-reasons.png">
 </p></li>
 </ul>
-=======
-<li>Enlisting the major reasons for cloud adoption - reasons which help answer 'Why Cloud?' will help determine the approach to cloud adoption. Some of the usual reasons for cloud adoption could be:</li>
-</ul>
-<p><img alt="Reasons for using Cloud Strategy" src="/img/cloud-adoption-reasons.png"></p>
->>>>>>> origin/master
 <hr>
 <h3>Defining the Enterprise Cloud Strategy</h3>
 <p>Based on the inputs, understanding of the technology stack and organizational priorities, decisions need to be made regarding various dimensions of the cloud strategy. There are multiple dimensions that need to be considered. I will try and discuss through an indicative list of all aspects which need to be considered to determine an enterprise cloud strategy.</p>
@@ -167,7 +154,6 @@ Janit Vora's Blog            </a>
 </tbody>
 </table>
 <h4>2. Hosting Approach</h4>
-<<<<<<< HEAD
 <p>The hosting strategy for cloud adoption depends on an organization’s priorities. The most common approaches to hosting with their characteristics are described below:
 <p align = "center">
 <img alt="Cloud Hosting Approach" src="/img/Hybrid_cloud_hosting.png">
@@ -177,17 +163,10 @@ Janit Vora's Blog            </a>
 ![Choosing between IaaS, PaaS and SaaS, Source: Microsoft]({static}/img/HowToChooseIaaSPaaSSaaS.png)
 </p>
 
-=======
-<p>The hosting strategy for cloud adoption depends on an organization’s priorities. The most common approaches to hosting with their characteristics are described below:</p>
-<p><img alt="Cloud Hosting Approach" src="/img/Hybrid_cloud_hosting.png"></p>
-<h4>3. Cloud Tiers: How to choose between IaaS, PaaS and SaaS</h4>
-<p><img alt="Choosing between IaaS, PaaS and SaaS, Source: Microsoft" src="/img/HowToChooseIaaSPaaSSaaS.png"></p>
->>>>>>> origin/master
 <p>An IaaS model provides maximum control as the figure above illustrates. It allows you full control over the operating system, and allows you to introduce secure concepts such as isolated VMs, secure boot, just-in-time access, etc. </p>
 <p>PaaS increases this abstraction OS, middleware and runtime are also provided by the cloud vendor. PaaS components are architected to provide scalability and agility to support cloud applications. This is an evolution from IaaS which requires the architect or engineer to build the scalability and agility using traditional techniques at the infrastructure level, i.e. load balancers, traffic management, scale-sets, etc. </p>
 <p>SaaS completes the models, whereby the platform provider (i.e. Microsoft) manages the entire stack and provisions access to the "software" as required by the users of the organisation. In this model, the organisation has a lot less control within the infrastructure and the application tier and instead places more trust in the vendor. Ultimately this is the cloud nirvana, as typically SaaS products are 'born in the cloud' and can usually be considered truly 'cloud native'.</p>
 <h4>4. How to choose the correct cloud implementation: Multi cloud, Hybrid Cloud or Private Cloud?</h4>
-<<<<<<< HEAD
 <p>Multi cloud wins this hands down thanks to reasons ranging from vendor lock in, performance and latency, compliance across geographies and resilience. As seen below, multi cloud is the most popular approach to cloud globally. 
 <p align = "center">
 <img alt="Enterprise Cloud Strategy" src="/img/MultiCloudAdoptionStats1.png">
@@ -197,18 +176,10 @@ There are different reasons and different ways to use multi cloud as described b
 <img alt="Multi cloud approach" src="/img/MulticloudStrategyStats2.png">
 </p>
 Multi cloud is the dominant approach suggested for cloud services – especially for large enterprises which need to ensure compliance to various regulations. Single public cloud is useful for those looking to optimize costs whereas private cloud is a great option for those with especially stringent data security requirements.</p>
-=======
-<p>Multi cloud wins this hands down thanks to reasons ranging from vendor lock in, performance and latency, compliance across geographies and resilience. As seen below, multi cloud is the most popular approach to cloud globally. </p>
-<p><img alt="Enterprise Cloud Strategy" src="/img/MultiCloudAdoptionStats1.png"></p>
-<p>There are different reasons and different ways to use multi cloud as described below:</p>
-<p><img alt="Multi cloud approach" src="/img/MulticloudStrategyStats2.png"></p>
-<p>Multi cloud is the dominant approach suggested for cloud services – especially for large enterprises which need to ensure compliance to various regulations. Single public cloud is useful for those looking to optimize costs whereas private cloud is a great option for those with especially stringent data security requirements.</p>
->>>>>>> origin/master
 <p>Cloud management platforms such as Flexera (Rightscale), Scalr, Embotics, Morpheus Data etc. help manage multi cloud environments with ease. Here is <a href="https://www.gartner.com/en/documents/3897466/magic-quadrant-for-cloud-management-platforms" title="Gartner’s magic quadrant report for Cloud Management Platforms">Gartner’s magic quadrant report for Cloud Management Platforms</a>.</p>
 <p>Another recent, noteworthy development is <a href="https://cloud.google.com/anthos" title="Google’s Anthos">Google’s Anthos</a> – a Kubernetes based suite of GCP components that helps organisations to run applications on premises, on Google cloud and also to manage workloads on third-party clouds like AWS and Azure. This gives you ‘the freedom to deploy, run and manage your applications on the cloud of your choice, without requiring administrators and developers to learn different environments and APIs.’</p>
 <h4>5. Which Public Cloud Provider?</h4>
 <p>After zeroing in on the multi-cloud approach, we need to decide which cloud providers should we choose to go with. While workload placement strategy might help determine the best fit cloud for each individual workload, AWS, Ms Azure and GCP are the usual suspects for most cloud implementations.</p>
-<<<<<<< HEAD
 <p>AWS had stolen a march over the competition, but Azure is catching up fast as the data from Rightscale's reports show below:
 <p align = "center">
 <img alt="Public Cloud Adoption" src="/img/publiccloudadoption.png">
@@ -225,17 +196,6 @@ Here is another comparison chart from Spiceworks’<a href="https://community.sp
 <img alt="CCM V3.0.1 Domains" src="/img/CCMv3.0.1Domains.png">
 </p>
 An architect can leverage the <a href="https://cloudsecurityalliance.org/artifacts/cloud-controls-matrix-v3-0-1/" title="CCM v3.0.1">CCM v3.0.1</a> and tailor it to their organization.</p>
-=======
-<p>AWS had stolen a march over the competition, but Azure is catching up fast as the data from Rightscale's reports show below:</p>
-<p><img alt="Public Cloud Adoption" src="/img/publiccloudadoption.png"></p>
-<p>Here is another comparison chart from Spiceworks’<a href="https://community.spiceworks.com/blog/3208-public-cloud-trends-in-2019-and-beyond" title="Public Cloud Trends in 2019 and Beyond">Public Cloud Trends in 2019 and Beyond</a> survey with responses from the users of AWS, Ms Azure and GCP.</p>
-<p><img alt="AWS vs Ms Azure vs Google Cloud" src="/img/AWSvsAzurevsGCP.png"></p>
-<p>AWS is the oldest, most well-known and feature rich of all public cloud providers. It also has the largest community of users. This usually makes it the first choice for most cloud adoption programmes. </p>
-<h4>6. Challenges, Risks, Controls implemented</h4>
-<p>The Cloud Controls Matrix created by the Cloud Security Alliance is the best and only meta-framework of cloud-specific security controls. These controls which span across the enterprise are mapped to leading standards, best practices and regulations. CCM provides organizations with the needed structure, detail and clarity relating to information security tailored to cloud computing. CCM is currently considered a de-facto standard for cloud security assurance and compliance. The current version of the CCM is v3.0.1.</p>
-<p><img alt="CCM V3.0.1 Domains" src="/img/CCMv3.0.1Domains.png"></p>
-<p>An architect can leverage the <a href="https://cloudsecurityalliance.org/artifacts/cloud-controls-matrix-v3-0-1/" title="CCM v3.0.1">CCM v3.0.1</a> and tailor it to their organization.</p>
->>>>>>> origin/master
 <h4>7. Critical Enablers to define Enterprise Cloud Strategy</h4>
 <p>An Enterprise Cloud Strategy will need enablers listed below to be implemented successfully:</p>
 <ul>
@@ -245,7 +205,6 @@ An architect can leverage the <a href="https://cloudsecurityalliance.org/artifac
 <li>Cloud Service Deployment Standards: Ensure that every application hosted on cloud infrastructure are evaluated for and adhere to service deployment standards.</li>
 </ul>
 <h4>8. Target State</h4>
-<<<<<<< HEAD
 <p>Determining the Target State for an organization's technology estate will help drive the cloud adoption strategy. Here is a sample target state. The target state will help manage lots of complex apps in a flexible manner at a low cost.
 <p align = "center">
 <img alt="Target State" src="/img/TargetState_New.jpg">
@@ -255,13 +214,6 @@ An architect can leverage the <a href="https://cloudsecurityalliance.org/artifac
 <p align = "center">
 <img alt="Goals" src="/img/Goals.jpg">
 </p></p>
-=======
-<p>Determining the Target State for an organization's technology estate will help drive the cloud adoption strategy. Here is a sample target state. Applications are segregated as systems of records, channel applications, enterprise functions and systems of integration based on their functions. </p>
-<p><img alt="Target State" src="/img/TargetState.png"></p>
-<h4>9. Goals, Benefits and Measuring Success</h4>
-<p>A good Enterprise Cloud Strategy should define the goals that it needs to achieve, the benefits it should accrue to the organization and the method to measure these benefits. The goals should be well defined, clearly articulated and time bound. Goals could be across different areas and should differ as cloud maturity increases in the organization. A few sample goals for the beginning of an Enterprise's cloud journey are:
-<img alt="Goals" src="/img/Goals.jpg"></p>
->>>>>>> origin/master
 <h4>10. Cloud Governance Strategy</h4>
 <p>A cloud governance board should be established on the lines of EA governance boards. The cloud governance board should have representatives from all areas of the enterprise. </p>
 <p>The cloud governance board, as its name suggests will be responsible for governing cloud adoption in the enterprise. The board will have to convene regularly in the initial days of cloud adoption with their focus on functions such as:</p>
@@ -283,35 +235,6 @@ An architect can leverage the <a href="https://cloudsecurityalliance.org/artifac
 </ul>
             </div>
             <!-- /.entry-content -->
-    <hr/>
-    <section class="comments" id="comments">
-        <h2>Comments</h2>
-
-        <div id="disqus_thread"></div>
-        <script type="text/javascript">
-            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-            var disqus_shortname = 'www-janitvora-com.disqus.com'; // required: replace example with your forum shortname
-
-            var disqus_config = function () {
-                this.language = "en";
-
-                        this.page.identifier = '2020-02-25-enterprise-cloud-adoption-strategy';
-            };
-
-            /* * * DON'T EDIT BELOW THIS LINE * * */
-            (function () {
-                var dsq = document.createElement('script');
-                dsq.type = 'text/javascript';
-                dsq.async = true;
-                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
-            Disqus.</a></noscript>
-        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-    </section>
         </article>
     </section>
 
@@ -381,38 +304,6 @@ An architect can leverage the <a href="https://cloudsecurityalliance.org/artifac
 <script src="/theme/js/respond.min.js"></script>
 
 
-    <!-- Disqus -->
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'www-janitvora-com.disqus.com'; // required: replace example with your forum shortname
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function () {
-            var s = document.createElement('script');
-            s.async = true;
-            s.type = 'text/javascript';
-            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-        }());
-    </script>
-    <!-- End Disqus Code -->
-    <!-- Google Analytics -->
-    <script type="text/javascript">
-
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-38823705-1']);
-        _gaq.push(['_trackPageview']);
-
-        (function () {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
-    <!-- End Google Analytics Code -->
 
 
 </body>
